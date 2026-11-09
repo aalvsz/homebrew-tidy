@@ -7,7 +7,7 @@ cask "tidy" do
   desc "Menu bar app showing what drains your battery, memory and disk"
   homepage "https://github.com/aalvsz/tidy"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Tidy.app"
 
